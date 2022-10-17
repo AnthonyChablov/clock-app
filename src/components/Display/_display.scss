@@ -1,0 +1,35 @@
+.display{
+    color: $white;
+    padding-top: 13em;
+    .display__header{
+        display: flex;
+        align-content: center;
+        .display__icon{
+            margin-right: 0.9em;
+        }
+        .display__title{
+           text-transform: uppercase;
+           letter-spacing: 2px;
+           word-spacing: 1px;
+           font-weight: 300;
+        }
+    }
+    .display__clock{
+        display: flex;
+        align-items: flex-end;
+        .display__time{
+            font-size: 6rem;
+            font-weight: 700;
+        }
+        .display__timezone{
+            margin-bottom: 1.1em;
+        }
+    }
+    .display__subtitle{
+        padding-top: 5px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
+}

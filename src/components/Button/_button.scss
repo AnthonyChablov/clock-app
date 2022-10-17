@@ -1,0 +1,26 @@
+.button{
+    display: inline-block;
+    padding: 8px 8px;
+    background-color: $white;
+    border-radius: 100px;
+    color: $grey;
+    font-weight: 700;
+    letter-spacing: 4px;
+    
+    .button__wrapper{
+        display: flex;
+        align-items: center;
+        
+        .button__text{
+            margin: 0 1em;
+        }
+        .button__dropdown{
+            display: flex;
+            align-items: center;
+            transform: scaleY(-1);
+        }
+        .button__dropdown:hover{
+           cursor: pointer;
+        }
+    }
+}
