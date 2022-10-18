@@ -19,15 +19,11 @@ img {
     width: 100%;
 }
 .container {
-    width: 65%;
-    margin: 0 auto;
-    max-width: 80.75em;
-}
-.container--display{
     width: 85%;
     margin: 0 auto;
     max-width: 80.75em;
 }
+
 .row{
     display:flex;
     justify-content: space-between;

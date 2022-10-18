@@ -1,7 +1,7 @@
 const Info = ({title, data}) => {
     return (
         <div className='info'>
-            <div className="info__content container--display">
+            <div className="info__content container">
                 <p className="info__title">
                     {title}
                 </p>
