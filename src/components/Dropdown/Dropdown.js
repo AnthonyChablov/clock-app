@@ -1,6 +1,6 @@
 import Info from "../Info/Info";
 
-const Dropdown = () => {
+const Dropdown = ({showDropDown}) => {
     return (
         <div className="dropdown">
             <Info title={'Current Timezone'} data={'Europe/London'}/>

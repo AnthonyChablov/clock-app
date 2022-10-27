@@ -1,10 +1,12 @@
 import './App.css';
-
+import { useState, useEffect, useContext } from 'react';
 import Hero from './components/Hero/Hero';
 import Dropdown from './components/Dropdown/Dropdown';
-import AppContextProvider from './context/GlobalContext';
+
+
+
 function App() {
-  /* quote="quote" timeOfDay={timeOfDay} */
+  
   return (
     <AppContextProvider>
       <div className='app'>
